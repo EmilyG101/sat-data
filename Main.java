@@ -44,7 +44,7 @@ public class Main {
     System.out.println("The highest score is " + high);
 
     // find the lowest score\
-    int low = 0;
+    int low = 99999;
     int num1 = 0;
     for(int score : totalScore){
       num1 = score;
